@@ -22,7 +22,7 @@ def main():
     col3,col4,col5,col6,col7,col8=st.columns(6)
     with col3:
             original_title = '<h2 style="font-family:Courier;font-size: 17px;">Gyanbardhan</h2>'
-           st.markdown(original_title, unsafe_allow_html=True)
+            st.markdown(original_title, unsafe_allow_html=True)
     with col4:
         filename = "gyan.jpeg"
         #img = cv2.imread(filename)
